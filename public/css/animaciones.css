@@ -1,0 +1,19 @@
+.container section {
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  
+  .container section.visible {
+    opacity: 1;
+  }
+  
+
+  .container nav {
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  
+  .container nav.visible {
+    opacity: 1;
+  }
+  
