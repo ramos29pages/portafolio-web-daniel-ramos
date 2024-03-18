@@ -15,14 +15,17 @@
     padding: 0;
 }
 
+body{
+    overflow-y: scroll;
+    overflow-x: hidden!important;
+}
+
 .container {
     background: linear-gradient(to right, var(--color1), var(--color2), var(--color3));
     padding: 5px;
     height: auto;
     width: 100vw;
     max-width: 100vw;
-    overflow-y: scroll;
-    overflow-x: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
@@ -50,6 +53,7 @@ nav .hamburguesa {
     width: 120px;
     margin-right: 20px !important;
     color: white;
+    z-index: 10;
 }
 
 nav .hamburguesa h3 {
@@ -323,14 +327,14 @@ nav .titulo img {
 }
 
 .fondoCubo {
-    background-color: #8a02b026;
     width: 450px;
     height: 550px;
     position: absolute;
     filter: blur(50px);
     border-radius: 50%;
     justify-self: center;
-    z-index: 3;
+    z-index: 0;
+    background-color: #8a02b026;
 }
 
 .contenedorCubo {
@@ -743,6 +747,8 @@ nav .titulo img {
 .contacto form {
     background-color: rgba(0, 0, 0, 0.153);
     display: grid;
+    width: 100%;
+    max-width: 350px;
     padding: 20px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.366);
@@ -751,11 +757,11 @@ nav .titulo img {
 .contacto form input {
     height: 40px;
     max-width: 350px;
-    width: 350px;
     margin: 5px;
     padding: 10px;
     border-radius: 8px;
     border: none;
+    background-color: rgb(208, 208, 208);
 }
 
 .contacto form button {

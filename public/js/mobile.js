@@ -20,7 +20,7 @@ burger.addEventListener('click', toogleNav)
 
 
 function toogleNav() {
-    if(isConnected){
+    if (isConnected) {
         nav.style.display = 'none';
         isConnected = false;
         burger.innerHTML = `<h3 class="seccionActual">${seccionActual}</h3><i class="fa-solid fa-bars animate__animated animate__bounceIn"></i>`;
@@ -31,12 +31,17 @@ function toogleNav() {
     }
 };
 
-links.forEach( link => {
-    link.addEventListener('click', (e) =>{
+links.forEach(link => {
+    link.addEventListener('click', (e) => {
         console.log(e.target.innerHTML);
         seccionActual = e.target.innerHTML.toString();
         isConnected = false;
         burger.innerHTML = `<h3 class="seccionActual">${seccionActual}</h3><i class="fa-solid fa-bars animate__animated animate__bounceIn"></i>`;
         nav.style.display = 'none';
+        if (seccionActual == 'Skills' && window.innerWidth < 800) {
+            let seccion = document.getElementById('skills2');
+            seccion.scrollIntoView({ behavior: 'smooth' });
+            console.log(seccion)
+        }
     })
 });
