@@ -269,7 +269,6 @@ SECCION DE INICIO
     position: absolute;
     filter: drop-shadow(15px 10px 55px #4a7881) opacity(60%);
     transition: all .3s ease;
-
 }
 
 
@@ -751,12 +750,6 @@ SECCION DE INICIO
 }
 
 
-
-
-
-
-
-
 /* MEDIAS Y KEYFRAMES */
 
 @keyframes rotate {
@@ -931,5 +924,6 @@ SECCION DE INICIO
         height: auto;
         transition: all .3s ease;
         filter: opacity(35%);
+
     }
 }

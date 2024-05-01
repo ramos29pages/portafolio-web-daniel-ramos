@@ -277,10 +277,9 @@ nav .titulo img {
     max-width: 60vw;
     max-width: 280px;
     position: absolute;
-    filter: drop-shadow(15px 10px 55px #88ccd9b0) opacity(60%);
+    filter: drop-shadow(15px 10px 55px #88ccd95c) opacity(60%);
     transition: all .3s ease;
 }
-
 
 .contLogo .est-tres {
     filter: drop-shadow(5px 5px 15px #0064806c);
