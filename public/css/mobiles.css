@@ -732,6 +732,11 @@ nav .titulo img {
     place-items: center;
 }
 
+.a-project{
+    color: var(--colorLetras);
+
+}
+
 
 /*  SECCION DE CONTACTO */
 

@@ -788,6 +788,9 @@ SECCION DE INICIO
     place-items: center;
 }
 
+.a-project{
+    color: var(--colorLetras);
+}
 
 /* MEDIAS Y KEYFRAMES */
 
