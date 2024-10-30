@@ -8,7 +8,7 @@ const ancho = window.innerWidth;
 const estilo = document.querySelector('#estilos');
 const roles = document.querySelector('.rol');
 let links = document.querySelectorAll('.link');
-let urlDeTuPDF = 'https://drive.google.com/file/d/1IHWLdZ3ssBJCPJMDGopx91RBeT1kHmYk/view?usp=sharing';
+let urlDeTuPDF = 'https://drive.google.com/file/d/1k0GEGj4aRjuc9PlnmV8tGVlfdsh7jAfB/view?usp=sharing';
 const areas = [
     'Freelancer  ',
     'Full Stack Developer ',
