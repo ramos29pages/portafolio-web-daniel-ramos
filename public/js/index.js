@@ -10,13 +10,14 @@ const roles = document.querySelector('.rol');
 let links = document.querySelectorAll('.link');
 let urlDeTuPDF = 'https://drive.google.com/file/d/1k0GEGj4aRjuc9PlnmV8tGVlfdsh7jAfB/view?usp=sharing';
 const areas = [
-    'Freelancer  ',
-    'Full Stack Developer ',
-    'Desarrollador Web ',
-    'Diseño de interfaces ',
     'Ingenierio de Sistemas ',
     'FrontEnd Developer ',
+    'Automatizacion de procesos  ',
     'Backend Developer '
+    'Full Stack Developer ',
+    'Desarrollador Web ',
+    'Automatizacion de procesos ',
+    'Freelancer  ',
 ];
 
 const ROL = 'daniel';
