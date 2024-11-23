@@ -13,7 +13,7 @@ const areas = [
     'Ingenierio de Sistemas ',
     'FrontEnd Developer ',
     'Automatizacion de procesos  ',
-    'Backend Developer '
+    'Backend Developer ',
     'Full Stack Developer ',
     'Desarrollador Web ',
     'Automatizacion de procesos ',
