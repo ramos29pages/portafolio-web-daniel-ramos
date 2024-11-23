@@ -10,10 +10,11 @@ const roles = document.querySelector('.rol');
 let links = document.querySelectorAll('.link');
 let urlDeTuPDF = 'https://drive.google.com/file/d/1k0GEGj4aRjuc9PlnmV8tGVlfdsh7jAfB/view?usp=sharing';
 const areas = [
-    'Ingenierio de Sistemas ',
+    'Ingeniero de Sistemas ',
     'FrontEnd Developer ',
     'Automatizacion de procesos  ',
     'Backend Developer ',
+    'Ingeniero de Sistemas ',
     'Full Stack Developer ',
     'Desarrollador Web ',
     'Automatizacion de procesos ',
