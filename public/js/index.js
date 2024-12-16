@@ -8,7 +8,7 @@ const ancho = window.innerWidth;
 const estilo = document.querySelector('#estilos');
 const roles = document.querySelector('.rol');
 let links = document.querySelectorAll('.link');
-let urlDeTuPDF = 'https://drive.google.com/file/d/1k0GEGj4aRjuc9PlnmV8tGVlfdsh7jAfB/view?usp=sharing';
+let urlDeTuPDF = 'https://drive.google.com/file/d/1Ah-ys86Zhym2iSMdBIMeqiVomwsw0_RN/view?usp=sharing';
 const areas = [
     'Ingeniero de Sistemas ',
     'FrontEnd Developer ',
