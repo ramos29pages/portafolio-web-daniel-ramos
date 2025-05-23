@@ -274,7 +274,7 @@ nav .titulo img {
     bottom: -70px;
     left: -10px;
     width: 100%;
-    max-width: 60vw;
+    /* max-width: 50vw; */
     max-width: 280px;
     position: absolute;
     filter: drop-shadow(15px 10px 55px #88ccd95c) opacity(60%);
@@ -295,8 +295,8 @@ nav .titulo img {
     position: absolute;
     transform: perspective(150px) rotateY(-65deg) rotateZ(15deg);
     width: 200px;
-    right: 18vw;
-    bottom: 70px;
+    right: 1vw;
+    bottom: 20px;
     filter: drop-shadow(5px 5px 15px #0c262e6c) opacity(35%);
     transition: all .3s ease;
 }
